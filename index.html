@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>역할 랜덤으로 정하기</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>역할 랜덤으로 정하기</h1>
+
+    <label for="participantCount">참여자 수:</label>
+    <input type="number" id="participantCount" min="1" required />
+    <button onclick="allocateRoles()">할당하기</button>
+
+    <div id="participantInputs"></div>
+
+    <div id="result"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
